@@ -23,9 +23,9 @@ int kvprint(string_view k, string_view v) {
 
 //
 // this is the main program, used this way:
-//	kvinit pmemfile           -- print all the keys and values in the pmemfile
-//	kvinit pmemfile key       -- lookup key and print the value
-//	kvinit pmemfile key value -- add a key/value pair to the pmemfile
+//	pmemkv pmemfile           -- print all the keys and values in the pmemfile
+//	pmemkv pmemfile key       -- lookup key and print the value
+//	pmemkv pmemfile key value -- add a key/value pair to the pmemfile
 //
 // the pmemfile is created automatically if it doesn't already exist.
 //
